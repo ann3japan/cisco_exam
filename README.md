@@ -41,7 +41,7 @@ Task verification:
 # Task 3 -- Docker
 
 Task name:
-Manage WebServers through Ansible.
+Manage Docker microservices.
 
 Task preparation:
 Creating a docker microservice using https://github.com/cturra/docker-ntp
