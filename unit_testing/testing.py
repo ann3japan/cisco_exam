@@ -10,16 +10,14 @@ class TestMain(unittest.TestCase):
         self.assertEqual(vowels("world"), ['o'])
 
     def test_factors(self):
-        self.assertEqual(factors(7), [7])
-        self.assertEqual(factors(6), [2, 3])
+        self.assertEqual(factors(5), [5])
 
     def test_is_prime(self):
         self.assertTrue(is_prime(19))
         self.assertFalse(is_prime(18))
 
-    def test_isupper(self):
-        self.assertTrue('ANNA'.isupper())
-        self.assertFalse('Anna'.isupper())
+    def test_len(self):
+        self.assertEqual(len([1,2, 3, 4, 5]), 5)
     
 if __name__ == '__main__':
     unittest.main()
